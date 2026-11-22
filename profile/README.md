@@ -2,24 +2,24 @@
 
 Kho lưu trữ và tuyển chọn các công cụ mã nguồn mở, AI Agent, dựng video tự động, OCR/RAG và tự động hóa trình duyệt của team **LucentDinh**.
 
-## Lọc nhanh theo nhóm (GitHub Topics)
+## Lọc nhanh theo nhóm (Custom Properties & Topics)
 
 | Nhóm | Mô tả | Số repo | Lọc nhanh |
 | :--- | :--- | :-: | :--- |
-| `video-production` | AI Video, Dựng Phim & Livestream | 25 | [Xem nhóm (#video-production)](https://github.com/orgs/LucentDinh/repositories?q=topic%3Avideo-production) |
-| `voice-audio` | Giọng Nói AI, TTS & Audiobook | 4 | [Xem nhóm (#voice-audio)](https://github.com/orgs/LucentDinh/repositories?q=topic%3Avoice-audio) |
-| `social-content` | Mạng Xã Hội, Content & Xuất Bản | 11 | [Xem nhóm (#social-content)](https://github.com/orgs/LucentDinh/repositories?q=topic%3Asocial-content) |
-| `agent-coding` | AI Agent, Coding & Điều Phối | 15 | [Xem nhóm (#agent-coding)](https://github.com/orgs/LucentDinh/repositories?q=topic%3Aagent-coding) |
-| `ui-design` | UI/UX, Thiết Kế & Visualization | 7 | [Xem nhóm (#ui-design)](https://github.com/orgs/LucentDinh/repositories?q=topic%3Aui-design) |
-| `ocr-rag-knowledge` | OCR, Document AI, RAG & Tri Thức | 14 | [Xem nhóm (#ocr-rag-knowledge)](https://github.com/orgs/LucentDinh/repositories?q=topic%3Aocr-rag-knowledge) |
-| `browser-automation` | Browser, Scraping, Download & Tiện Ích | 15 | [Xem nhóm (#browser-automation)](https://github.com/orgs/LucentDinh/repositories?q=topic%3Abrowser-automation) |
-| `domain-security` | Bảo Mật, HealthTech, FinTech & Khác | 6 | [Xem nhóm (#domain-security)](https://github.com/orgs/LucentDinh/repositories?q=topic%3Adomain-security) |
+| `video-production` | AI Video, Dựng Phim & Livestream | 25 | [Property (`props.group`)](https://github.com/orgs/LucentDinh/repositories?q=props.group%3Avideo-production) · [Topic (`#video-production`)](https://github.com/orgs/LucentDinh/repositories?q=topic%3Avideo-production) |
+| `voice-audio` | Giọng Nói AI, TTS & Audiobook | 4 | [Property (`props.group`)](https://github.com/orgs/LucentDinh/repositories?q=props.group%3Avoice-audio) · [Topic (`#voice-audio`)](https://github.com/orgs/LucentDinh/repositories?q=topic%3Avoice-audio) |
+| `social-content` | Mạng Xã Hội, Content & Xuất Bản | 11 | [Property (`props.group`)](https://github.com/orgs/LucentDinh/repositories?q=props.group%3Asocial-content) · [Topic (`#social-content`)](https://github.com/orgs/LucentDinh/repositories?q=topic%3Asocial-content) |
+| `agent-coding` | AI Agent, Coding & Điều Phối | 15 | [Property (`props.group`)](https://github.com/orgs/LucentDinh/repositories?q=props.group%3Aagent-coding) · [Topic (`#agent-coding`)](https://github.com/orgs/LucentDinh/repositories?q=topic%3Aagent-coding) |
+| `ui-design` | UI/UX, Thiết Kế & Visualization | 7 | [Property (`props.group`)](https://github.com/orgs/LucentDinh/repositories?q=props.group%3Aui-design) · [Topic (`#ui-design`)](https://github.com/orgs/LucentDinh/repositories?q=topic%3Aui-design) |
+| `ocr-rag-knowledge` | OCR, Document AI, RAG & Tri Thức | 14 | [Property (`props.group`)](https://github.com/orgs/LucentDinh/repositories?q=props.group%3Aocr-rag-knowledge) · [Topic (`#ocr-rag-knowledge`)](https://github.com/orgs/LucentDinh/repositories?q=topic%3Aocr-rag-knowledge) |
+| `browser-automation` | Browser, Scraping, Download & Tiện Ích | 15 | [Property (`props.group`)](https://github.com/orgs/LucentDinh/repositories?q=props.group%3Abrowser-automation) · [Topic (`#browser-automation`)](https://github.com/orgs/LucentDinh/repositories?q=topic%3Abrowser-automation) |
+| `domain-security` | Bảo Mật, HealthTech, FinTech & Khác | 6 | [Property (`props.group`)](https://github.com/orgs/LucentDinh/repositories?q=props.group%3Adomain-security) · [Topic (`#domain-security`)](https://github.com/orgs/LucentDinh/repositories?q=topic%3Adomain-security) |
 
 ---
 
 ## AI Video, Dựng Phim & Livestream (`video-production`)
 
-> Lọc nhanh trên Org: [Topic #video-production](https://github.com/orgs/LucentDinh/repositories?q=topic%3Avideo-production)
+> Lọc nhanh trên Org: [Topic #video-production](https://github.com/orgs/LucentDinh/repositories?q=topic%3Avideo-production) · [props.group:video-production](https://github.com/orgs/LucentDinh/repositories?q=props.group%3Avideo-production)
 
 | Repository | Ngôn ngữ | Upstream / Ghi chú |
 | :--- | :-: | :--- |
@@ -51,7 +51,7 @@ Kho lưu trữ và tuyển chọn các công cụ mã nguồn mở, AI Agent, d�
 
 ## Giọng Nói AI, TTS & Audiobook (`voice-audio`)
 
-> Lọc nhanh trên Org: [Topic #voice-audio](https://github.com/orgs/LucentDinh/repositories?q=topic%3Avoice-audio)
+> Lọc nhanh trên Org: [Topic #voice-audio](https://github.com/orgs/LucentDinh/repositories?q=topic%3Avoice-audio) · [props.group:voice-audio](https://github.com/orgs/LucentDinh/repositories?q=props.group%3Avoice-audio)
 
 | Repository | Ngôn ngữ | Upstream / Ghi chú |
 | :--- | :-: | :--- |
@@ -62,7 +62,7 @@ Kho lưu trữ và tuyển chọn các công cụ mã nguồn mở, AI Agent, d�
 
 ## Mạng Xã Hội, Content & Xuất Bản (`social-content`)
 
-> Lọc nhanh trên Org: [Topic #social-content](https://github.com/orgs/LucentDinh/repositories?q=topic%3Asocial-content)
+> Lọc nhanh trên Org: [Topic #social-content](https://github.com/orgs/LucentDinh/repositories?q=topic%3Asocial-content) · [props.group:social-content](https://github.com/orgs/LucentDinh/repositories?q=props.group%3Asocial-content)
 
 | Repository | Ngôn ngữ | Upstream / Ghi chú |
 | :--- | :-: | :--- |
@@ -80,7 +80,7 @@ Kho lưu trữ và tuyển chọn các công cụ mã nguồn mở, AI Agent, d�
 
 ## AI Agent, Coding & Điều Phối (`agent-coding`)
 
-> Lọc nhanh trên Org: [Topic #agent-coding](https://github.com/orgs/LucentDinh/repositories?q=topic%3Aagent-coding)
+> Lọc nhanh trên Org: [Topic #agent-coding](https://github.com/orgs/LucentDinh/repositories?q=topic%3Aagent-coding) · [props.group:agent-coding](https://github.com/orgs/LucentDinh/repositories?q=props.group%3Aagent-coding)
 
 | Repository | Ngôn ngữ | Upstream / Ghi chú |
 | :--- | :-: | :--- |
@@ -102,7 +102,7 @@ Kho lưu trữ và tuyển chọn các công cụ mã nguồn mở, AI Agent, d�
 
 ## UI/UX, Thiết Kế & Visualization (`ui-design`)
 
-> Lọc nhanh trên Org: [Topic #ui-design](https://github.com/orgs/LucentDinh/repositories?q=topic%3Aui-design)
+> Lọc nhanh trên Org: [Topic #ui-design](https://github.com/orgs/LucentDinh/repositories?q=topic%3Aui-design) · [props.group:ui-design](https://github.com/orgs/LucentDinh/repositories?q=props.group%3Aui-design)
 
 | Repository | Ngôn ngữ | Upstream / Ghi chú |
 | :--- | :-: | :--- |
@@ -116,7 +116,7 @@ Kho lưu trữ và tuyển chọn các công cụ mã nguồn mở, AI Agent, d�
 
 ## OCR, Document AI, RAG & Tri Thức (`ocr-rag-knowledge`)
 
-> Lọc nhanh trên Org: [Topic #ocr-rag-knowledge](https://github.com/orgs/LucentDinh/repositories?q=topic%3Aocr-rag-knowledge)
+> Lọc nhanh trên Org: [Topic #ocr-rag-knowledge](https://github.com/orgs/LucentDinh/repositories?q=topic%3Aocr-rag-knowledge) · [props.group:ocr-rag-knowledge](https://github.com/orgs/LucentDinh/repositories?q=props.group%3Aocr-rag-knowledge)
 
 | Repository | Ngôn ngữ | Upstream / Ghi chú |
 | :--- | :-: | :--- |
@@ -137,7 +137,7 @@ Kho lưu trữ và tuyển chọn các công cụ mã nguồn mở, AI Agent, d�
 
 ## Browser, Scraping, Download & Tiện Ích (`browser-automation`)
 
-> Lọc nhanh trên Org: [Topic #browser-automation](https://github.com/orgs/LucentDinh/repositories?q=topic%3Abrowser-automation)
+> Lọc nhanh trên Org: [Topic #browser-automation](https://github.com/orgs/LucentDinh/repositories?q=topic%3Abrowser-automation) · [props.group:browser-automation](https://github.com/orgs/LucentDinh/repositories?q=props.group%3Abrowser-automation)
 
 | Repository | Ngôn ngữ | Upstream / Ghi chú |
 | :--- | :-: | :--- |
@@ -159,7 +159,7 @@ Kho lưu trữ và tuyển chọn các công cụ mã nguồn mở, AI Agent, d�
 
 ## Bảo Mật, HealthTech, FinTech & Khác (`domain-security`)
 
-> Lọc nhanh trên Org: [Topic #domain-security](https://github.com/orgs/LucentDinh/repositories?q=topic%3Adomain-security)
+> Lọc nhanh trên Org: [Topic #domain-security](https://github.com/orgs/LucentDinh/repositories?q=topic%3Adomain-security) · [props.group:domain-security](https://github.com/orgs/LucentDinh/repositories?q=props.group%3Adomain-security)
 
 | Repository | Ngôn ngữ | Upstream / Ghi chú |
 | :--- | :-: | :--- |
