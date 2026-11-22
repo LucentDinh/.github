@@ -1,0 +1,39 @@
+name: Sync Organization Profile README
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 2 * * 1" # Every Monday at 09:00 ICT
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate profile/README.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_ORG: ${{ github.repository_owner }}
+        run: python scripts/generate_profile.py
+
+      - name: Commit and push if changed
+        run: |
+          if [ -n "$(git status --porcelain profile/README.md)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add profile/README.md
+            git commit -m "docs: auto-sync organization repository directory"
+            git push
+          else
+            echo "No changes to profile/README.md"
+          fi
